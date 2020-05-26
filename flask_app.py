@@ -41,29 +41,52 @@ def calulate() :
     temp3=request.form['message']
 
     print(temp1+" "+temp11)
-    print(temp2)
-    print(temp3)
+    try :
+        if len(temp1 + " " + temp11) == 2 :
+            print("ge4")
+            raise Exception
 
-    conn = s.connect(host='localhost', user='root',
-                     password='zaiguru39@', db='my_db', charset='utf8')
-    curs = conn.cursor()
-    sql = "select * from test"
-    curs.execute(sql)
+        elif temp2.find("@") < 0 :
+            print("ge3")
+            raise Exception
 
-    data = curs.fetchall()
-    print(data)  # 첫번째 row
+        elif temp2.find(".") < 0 :
+            print("ge")
+            raise Exception
 
-    sql = "INSERT INTO test (username, adress, contents) VALUES (%s,%s,%s)"
-    val = (temp1+" "+temp11, temp2, temp3)
-    curs.execute(sql, val)
+        elif len(temp1 + " " + temp11) < 2 :
+            print("ge2")
+            raise Exception
 
-    print(curs.rowcount, "record inserted.")
 
-    conn.commit()
-    print(1)
-    conn.close()
+    except Exception as e :
+        return render_template("input-alert.html")
 
-    return render_template('template.html')
+    except :
+        raise
+
+    else:
+        conn = s.connect(host='localhost', user='root',
+                         password='zaiguru39@', db='my_db', charset='utf8')
+        curs = conn.cursor()
+        sql = "select * from test"
+        curs.execute(sql)
+        data = curs.fetchall()
+        sql = "INSERT INTO test (username, adress, contents) VALUES (%s,%s,%s)"
+        val = (temp1 + " " + temp11, temp2, temp3)
+        curs.execute(sql, val)
+        conn.commit()
+        conn.close()
+        return render_template("input-alert2.html")
+
+    return 99999
+
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
