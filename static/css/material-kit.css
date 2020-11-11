@@ -13114,6 +13114,9 @@ thead.thead-inverse th,
 .section {
   padding: 70px 0; }
 
+.section_mdbanner {
+  width: 100%; }
+
 .section-navbars {
   padding-bottom: 0; }
 
