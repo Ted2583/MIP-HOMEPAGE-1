@@ -1,0 +1,1038 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>YOOCHANGFOODxSANHO </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!--     Fonts and icons     -->
+  <link rel="apple-touch-icon" sizes="76x76" href="../static/yoochang.png">
+  <link rel="icon" type="image/png" href="../static/img/yoochang.png">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- Material Kit CSS -->
+  <link href="static/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/owl.carousel.css">
+  <script src="static/js/jquery.min.js" charset="utf-8"></script>
+  <link href="./static/css/vertical-nav.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="landing-page sidebar-collapse">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script language="Javascript">
+  function frameclose(){
+  document.getElementById("mdbanner").style.display = "none";
+  }
+  </script>
+
+
+  <script>
+  function initialize() {
+  var myLatlng = new google.maps.LatLng(10.777183, 106.752014);
+  var mapOptions = {
+        zoom: 14,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+  var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  title: "YOOCHANGFOOD VIETNAM"
+  });
+  }
+  window.onload = initialize;
+  </script>
+  <style>
+
+    img.img-trans{
+        animation: rotate_image 2s linear infinite;
+        transform-origin: 50% 50%;
+    }
+
+    @keyframes rotate_image{
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+  </style>
+
+  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a href="/" alt="Raised Image">
+          <img class="navbar-brand"alt="Raised Image"  src="../static/img/유창식품.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item" >
+            <a href="/product-en" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              Language
+            </a>
+            <div class="dropdown-menu dropdown-with-icons active" >
+              <a href="/" class="dropdown-item">
+                Korean
+              </a>
+              <a href="/main-en" class="dropdown-item">
+                English
+              </a>
+              <a href="/main-vn" class="dropdown-item">
+                Vietnam
+              </a>
+            </div>
+          </li>
+          <li class="dropdown nav-item" >
+            <a href="/intro-en" class="dropdown-toggle nav-link" data-toggle="dropdown" >
+              About us
+            </a>
+            <div class="dropdown-menu dropdown-with-icons active" >
+              <a href="/intro-en" class="dropdown-item">
+                Greetings
+              </a>
+              <a href="/intro2-en" class="dropdown-item">
+                Corporate philosophy
+              </a>
+              <a href="/intro3-en" class="dropdown-item">
+                Vision
+              </a>
+            </div>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="/product-en" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              Item discription
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="/product-en" class="dropdown-item">
+                Handling product
+              </a>
+            </div>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="/support-en" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              Service center
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+                <a href="/support-en" class="dropdown-item">
+                  Product Inquiry
+                </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('../static/img/landingpage/main-1.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <div class="brand">
+            <h1 class="title">YOOCHANGFOOD</h1>
+            <h4>With 30 years of distribution know-how, we are selling about 100 carefully selected</h4>  <h4 class="mt-0">brand products and 3,000 various food ingredients.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- middle banner-->
+  <div class="main section_mdbanner position-relative" id="mdbanner" >
+    <div > <img src="static/img/banner/middle-banner3-en.png" style=" width: 100%; height: 100%;"> </div>
+    <div class="position-absolute mr-2 mt-2" style="right: 5px; top: 5px"> <a href="javascript:frameclose()"> <img src="static/img/icons/xbutton-3.png" style="height: 30px; width: 30px;"></a> </div>
+  </div>
+
+  <!-- product -->
+  <div class="main">
+    <div class="profile-content">
+        <div class="container" data-aos="fade-down">
+          <div class="section text-center">
+            <h2 class="title">Do you have a product you are looking for?</h2>
+            <h4 class="text mb-4">Easily shop with recommended products by business condition!</h4>
+            <div class="row">
+              <div class="col-md-8 ml-auto mr-auto">
+                <div class="profile-tabs">
+                  <ul class="nav nav-pills nav-pills-primary ml-auto mr-auto nav-fill">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#all-food" data-toggle="tab">#ALL</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#k-food" data-toggle="tab">#K-FOOD</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link label active" href="#fresh" data-toggle="tab">#FRESH</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content tab-space" style="padding-bottom:0px">
+              <div class="tab-pane text-center gallery" id="all-food" >
+                <hr class="mr-auto ml-auto mb-4 mt-2" style="border: dot-dot-dash 1px darkred;">
+                <div class="row">
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Skewered fish cake 168G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Skewered fish cake 800G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Skewered fish cake 640G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/337_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Ball fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/338_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Square fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/339_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Stick fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/336_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Mixed fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/320_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Korean sausage 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/kroean-tteok.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Tteokbokki kit 320G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/noodle.JPG" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Korean noodle kit(3servings) 1.64KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/korean-sausage-stew.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Korean sausage stew 650G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/320_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Stir-fried giblets 250G</b></h4>
+                    </div>
+                  </div>
+
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/mangadak.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Brown beech mushroom 300G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/neutali.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Oyster mushroom 300G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/daepa.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Green Onion</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/yangpa.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Onion</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/garlic.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Garlic</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/gamja.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Potato</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/wooung.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Burdock</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/danggeon.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Carrot</b></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane text-center gallery" id="k-food" >
+                <hr class="mr-auto ml-auto mb-4 mt-2" style="border: dot-dot-dash 1px darkred;">
+                <div class="row">
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Skewered fish cake 168G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Skewered fish cake 800G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Skewered fish cake 640G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/337_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Ball fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/338_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Square fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/339_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Stick fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/336_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Mixed fish cake 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/320_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Korean sausage 1KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/kroean-tteok.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Tteokbokki kit 320G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/noodle.JPG" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Korean noodle kit(3servings) 1.64KG</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/korean-sausage-stew.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Korean sausage soup 650G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/320_n.jpg" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Stir-fried giblets 250G</b></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane text-center gallery active" id="fresh" >
+                <img src="static/img/banner/event-banner-en.jpg" style="width: 100%">
+                <hr class="mr-auto ml-auto mb-4 mt-2" style="border: dot-dot-dash 1px darkred;">
+                <div class="row">
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/mangadak.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Brown beech mushroom 300G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/neutali.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Oyster mushroom 300G</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2 carousel " style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/daepa.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Green Onion</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/yangpa.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Onion</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/garlic.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Garlic</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/gamja.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Potato</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/wooung.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Burdock</b></h4>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-2" style="overflow: hidden">
+                    <div class="text-left">
+                      <img class="img img-fluid" src="static/img/product-image/thum/danggeon.png" style="width: 100%; height: 100%">
+                      <h4 class="text-center "> <b>Carrot</b></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <hr style="border: solid 1px darkred; margin: auto">
+  <!--     *********     FEATURES 1      *********      -->
+  <div class="main" data-parallax="true" style="background-image: url('./static/img/BG-2.jpg')">
+    <div class="container" data-aos="fade-down">
+      <div class="features-1">
+        <div class="col-md-12 ml-auto mr-auto mt-5 mb-auto">
+          <h2 class="title" style="margin-bottom: 0px;">BEST Product</h2>
+          <h4 class="text mb-4">Introducing Yoochang Food's best-selling products</h4>
+        </div>
+        <div class="row" style="margin-top: 0px;">
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1-t.JPG" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Skewered fish cake 168G</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Matdaum</span>
+              <span class="badge badge-pill badge-danger">#Fish cake</span>
+              <span class="badge badge-pill badge-danger">#Easy Cooking</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/ractangle-fishcake-t.jpg" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Square fish cake 1KG</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Yoochang</span>
+              <span class="badge badge-pill badge-danger">#Fich cake</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/ball-fishcake-t.jpg" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Ball fish cake 1KG</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Yoochang</span>
+              <span class="badge badge-pill badge-danger">#Fish cake</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/stick-fishcake-t.jpg" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Stick fish cake 1KG</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Yoochang</span>
+              <span class="badge badge-pill badge-danger">#Fich cake</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/korean-sausage-t.jpg" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Korean sausage 1KG</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Yoochang</span>
+              <span class="badge badge-pill badge-danger">#Sausage</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/korean-sausage-stew-t.jpg" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Korean sausage stew 650G</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Insaeng</span>
+              <span class="badge badge-pill badge-danger">#Easy Cooking</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/noodle-t.JPG" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Korean noodle kit 1.64KG</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Insaeng</span>
+              <span class="badge badge-pill badge-danger">#Easy Cooking</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" style="overflow: hidden">
+            <div class="info text-left">
+              <img class="img img-fluid" src="static/img/product-image/thum/mangadak.png" style="width: 100%; height: 100%">
+              <h4 class="text-left "> <b>Brown beech mushroom</b></h4>
+              <h3 class="text-left ">Price inquiry</h3>
+              <span class="badge badge-pill badge-danger">#Fresh</span>
+            </div>
+          </div>
+        </div>
+
+        <script>
+        var cities = new Bloodhound({
+          datumTokenizer: Bloodhound.tokenizers.obj.whitespace('text'),
+          queryTokenizer: Bloodhound.tokenizers.whitespace,
+          prefetch: 'static/cities.json'
+        });
+        cities.initialize();
+
+        var elt = $('input');
+        elt.tagsinput({
+          tagClass: function(item) {
+            switch (item.continent) {
+              case 'Europe'   : return 'label label-primary';
+              case 'America'  : return 'label label-danger label-important';
+              case 'Australia': return 'label label-success';
+              case 'Africa'   : return 'label label-default';
+              case 'Asia'     : return 'label label-warning';
+            }
+          },
+          itemValue: 'value',
+          itemText: 'text',
+          typeaheadjs: {
+            name: 'cities',
+            displayKey: 'text',
+            source: cities.ttAdapter()
+          }
+        });
+        elt.tagsinput('add', { "value": 1 , "text": "Amsterdam"   , "continent": "Europe"    });
+        elt.tagsinput('add', { "value": 4 , "text": "Washington"  , "continent": "America"   });
+        elt.tagsinput('add', { "value": 7 , "text": "Sydney"      , "continent": "Australia" });
+        elt.tagsinput('add', { "value": 10, "text": "Beijing"     , "continent": "Asia"      });
+        elt.tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": "Africa"    });
+        </script>
+
+      </div>
+    </div>
+  </div>
+  <!--FEATURE3-->
+  <hr style="border: solid 1px darkred; margin: auto">
+  <div class="section" style="background-color: white">
+    <div class="container" data-aos="fade-down">
+      <div class="col-sm-12 ml-auto mr-auto mt-5 text-center ">
+        <h2 class="title">Handling item list</h2>
+        <h4 class="text">Yoochang Foods stably distributes about 3,000 food ingredients other than our products.</h4>
+        <br>
+      </div>
+      <!--#1-->
+      <div>
+        <div class="row">
+          <div class="col-12 col-lg-12" id="accordion" role="tablist">
+            <!--one-->
+            <div class="card card-collapse">
+              <div class="card-header" role="tab" id="headingOne">
+                <h3 class="mb-0">
+                  <a class="collapse" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <h3><b>·Fish cake product group</b><i class="material-icons">▼</i></h3>
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "><b>Skewered fish cake 168G</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "> <b>Skewered fish cake 640G</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "> <b>Skewered fish cake 800G</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/336_n.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "> <b>Mixed fish cake 1KG</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/337_n.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "> <b>Ball fish cake 1KG</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/338_n.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "> <b>Square fish cake 1KG</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img class="img img-fluid" src="static/img/product-image/thum/339_n.jpg" style="width: 100%; height: 100%">
+                          <h4 class="text-center "> <b>Stick fish cake 1KG</b></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--two-->
+            <div class="card card-collapse">
+              <div class="card-header" role="tab" id="headingTwo">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h3><b>·Sundae/Affiliated Products</b><i class="material-icons">▼</i></h3>
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/320_n.jpg" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Korean sausage 1KG</b></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--3th-->
+            <div class="card card-collapse">
+              <div class="card-header" role="tab" id="heading3th">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" href="#collapse3th" aria-expanded="false" aria-controls="collapse3th">
+                    <h3><b>·Easy Cooking Products</b><i class="material-icons">▼</i></h3>
+                  </a>
+                </h3>
+              </div>
+              <div id="collapse3th" class="collapse" role="tabpanel" aria-labelledby="heading3th" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/kroean-tteok.jpg" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Tteokbokki kit 320G</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/noodle.JPG" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Korean noodle kit 1.64KG</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/korean-sausage-stew.jpg" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Korean sausage stew 650g</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/320_n.jpg" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Stir-fried giblets 250g</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/skewered-fishcake1.jpg" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Skewered fish cake 168g</b></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--4th-->
+            <div class="card card-collapse">
+              <div class="card-header" role="tab" id="heading4th">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" href="#collapse4th" aria-expanded="false" aria-controls="collapse4th">
+                    <h3><b>·Fresh food product group</b><i class="material-icons">▼</i></h3>
+                  </a>
+                </h3>
+              </div>
+              <div id="collapse4th" class="collapse" role="tabpanel" aria-labelledby="heading4th" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/mangadak.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Brown beech mushroom 300G</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/neutali.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Oyster mushroom 300G</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/daepa.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Green onion</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/yangpa.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Onion</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/garlic.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Garlic</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/gamja.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Potato</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/wooung.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Burdock</b></h4>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-3">
+                      <div class="img img-fluid">
+                          <img src="static/img/product-image/thum/danggeon.png" style="width: 100%; height: 100%;">
+                          <h4 class="text-center "> <b>Carrot</b></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--FEATURE2-->
+  <hr style="border: solid 1px darkred; margin: auto">
+  <script src="static/js/owl.carousel.js"></script>
+  <div class="main data-parallax=true" style="background-color: white;">
+    <div class="container" data-aos=fade-down" style="height: auto; text-align: center;">
+      <div class="row">
+          <div class="col-md-12 ml-auto mr-auto mt-5 mb-auto">
+            <h2 class="title">Brand product introduction</h2>
+            <h4 class="text">Yoochang Foods stably distributes about 3,000 food ingredients.</h4>
+            <br>
+          </div>
+        </div>
+      <div class="owl-carousel">
+        <div class="item ">
+          <img src="static/img/produc/74_n.jpg" alt="유창 떡볶이소스"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/644_n.jpg" alt="유창 가래떡"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/320_n.jpg" alt="유창 순대 1KG"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/641_n.jpg" alt="유창 쌀떡볶이(신당)"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/638_n.jpg" alt="유창 쌀떡볶이(중떡)"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/365_n.jpg" alt="유창 찰순대 2KG"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/338_n.jpg" alt="유창 사각어묵 1KG"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/339_n.jpg" alt="유창 봉어묵 1KG"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/337_n.jpg" alt="유창 볼어묵 1KG"  class="visible-lg visible-md">
+        </div>
+        <div class="item ">
+          <img src="static/img/produc/336_n.jpg" alt="유창 종합어묵 1KG"  class="visible-lg visible-md">
+        </div>
+      </div>
+      <button class="btn pull-center btn-primary mb-5">Yoochang product list</button>
+      <button class="btn pull-center btn-dark mb-5">other product list</button>
+    </div>
+  </div>
+  <script>
+   $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+  })
+  </script>
+
+
+
+
+
+  <div class="section" style="background-color: darkred">
+    <div class="container" data-aos="fade-down">
+      <div class="row">
+        <img class="img-trans  ml-auto" src="../static/img/landingpage/clock1.png" style="width: 50px; height: 50px; display: block; margin: 0px auto;">
+      </div>
+      <div class="row">
+        <h3 class="title mr-auto text-center" style="color: white; margin: 8px auto;" >Contact available time</h3>
+      </div>
+      <div class="row">
+        <h5 class="mr-auto text-center" style="color: white; margin: 2px auto;" >AM 9:00~PM6:00</h5>
+      </div>
+      <div class="row">
+        <h5 class="mr-auto text-center" style="color: white; margin: 0px auto;" >+84.90.242.1689(VN)
+                <br> +84.90.477.7100(KR)</h5>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--     *********    CONTACT US 1     *********      -->
+  <hr style="border: solid 1px darkred; margin: auto">
+  <div class="contactus-1  bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" data-aos="fade-right">
+          <h2 class="title">Product Purchase Inquiry</h2>
+          <h5 class="description">YOOCHANGFOOD x SANHO</h5>
+          <div class="info info-horizontal">
+            <div class="description">
+              <h4> <b>Directions</b></h4>
+              <p> Số 05 Tậ Hiện, Phuòng Thạnh Mỹ Lợi,
+                <br> Quận 2, Thành phố Hồ Chí Minh, Viêt Nam
+                <br> Yoochangfood Vietnam
+              </p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="description">
+              <h4><b>Direct contact</b></h4>
+              <p> +84.90.242.1689(VN)
+                <br> +84.90.477.7100(KR)
+                <br> san.ho.susan.comp@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 ml-auto" data-aos="fade-left">
+          <div class="card card-contact">
+            <form id="contact-form" method="post" action="/board">
+              <div class="card-header card-header-raised card-header-danger text-center">
+                <h4 class="card-title">Email inquiry</h4>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group label-floating is-empty">
+                      <label class="bmd-label-floating">First name</label>
+                      <input type="text" name="name1" class="form-control">
+                      <span class="material-input"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group label-floating is-empty">
+                      <label class="bmd-label-floating">Last name</label>
+                      <input type="text" name="name2" class="form-control">
+                      <span class="material-input"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group label-floating is-empty">
+                  <label class="bmd-label-floating">Email Address</label>
+                  <input type="email" name="email" class="form-control">
+                  <span class="material-input"></span>
+                </div>
+                <div class="form-group label-floating is-empty">
+                  <label for="exampleMessage1" class="bmd-label-floating">Contents</label>
+                  <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                  <span class="material-input"></span>
+                </div>
+              </div>
+              <div class="card-footer justify-content-between">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="">Not a robot
+                    <span class="form-check-sign">
+                      <span class="check"></span>
+                    </span>
+                  </label>
+                </div>
+                <button type="submit" id="submit" class="btn pull-right btn-danger ">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--     *********    END CONTACT US 1      *********      -->
+  <div id="map_canvas" style="width: 100%; height: 400px; margin:0px;" data-aos="fade-down"></div>
+
+
+
+  <!--     *********    SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
+  <footer class="footer footer-white">
+    <div class="container" >
+      <a class="footer-brand" href="#">YOOCHANGFOODxSANHO</a>
+      <ul class="pull-center">
+        <li>
+          <a href="https://www.google.com/maps/place/10%C2%B046'37.9%22N+106%C2%B045'07.3%22E/@10.777183,106.7498253,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d10.777183!4d106.752014">
+            Map
+          </a>
+        </li>
+        <li>
+          <a href="/intro">
+            About Us
+          </a>
+        </li>
+        <li>
+          <a href="/product">
+            Product
+          </a>
+        </li>
+        <li>
+          <a href="/support">
+            Support
+          </a>
+        </li>
+      </ul>
+      <ul class="float-right">
+        <li>
+          <a href="#" target="_blank" >
+            <img src="static/img/icons/facebook-icon.png" style="width: 20px; height: 20px;">
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" >
+            <img src="static/img/icons/instagram-icon.png" style="width: 20px; height: 20px;">
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" >
+            <img src="static/img/icons/youtube-icon.png" style="width: 20px; height: 20px;">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+          <!--     *********   END SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
+
+
+
+
+  <!--   Core JS Files   -->
+  <script src="./static/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./static/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./static/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./static/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./static/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./static/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkA9wntP1WvqZkZK_f0lEJPz08uwxpjy4"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./static/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./static/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./static/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./static/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Plugins for presentation and navigation  -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Js With initialisations For Demo Purpose, Don't Include it in Your Project -->
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./static/js/material-kit.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+</body>
+
+</html>
