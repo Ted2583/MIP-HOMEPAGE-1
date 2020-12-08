@@ -63,7 +63,7 @@ def support_vn():
 ## EN
 @app.route('/main-en')
 def home_en():
-    return render_template('landingpage-EN.html')
+    return render_template('landingpage - EN.html')
 
 @app.route('/main2-en')
 def home2_en():
