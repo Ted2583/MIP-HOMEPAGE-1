@@ -67,26 +67,26 @@ def home_en():
 
 @app.route('/main2-en')
 def home2_en():
-    return render_template('template-EN.html')
+    return render_template('template - EN.html')
 
 @app.route('/intro-en')
 def intro_en():
-    return render_template('into-EN.html')
+    return render_template('into - EN.html')
 @app.route('/intro2-en')
 def intro2_en():
-    return render_template('into2-EN.html')
+    return render_template('into2 - EN.html')
 
 @app.route('/intro3-en')
 def intro3_en():
-    return render_template('into3-EN.html')
+    return render_template('into3 - EN.html')
 
 @app.route('/product-en')
 def product_en():
-    return render_template('product-EN.html')
+    return render_template('product - EN.html')
 
 @app.route('/support-en')
 def support_en():
-    return render_template('support-EN.html')
+    return render_template('support - EN.html')
 
 
 
