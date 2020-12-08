@@ -31,33 +31,62 @@ def product():
 def support():
     return render_template('support.html')
 
+## VN
+@app.route('/main-vn')
+def home_vn():
+    return render_template('landingpage-VN.html')
+
+@app.route('/main2-vn')
+def home2_vn():
+    return render_template('template-VN.html')
+
+@app.route('/intro-vn')
+def intro_vn():
+    return render_template('into-VN.html')
+
+@app.route('/intro2-vn')
+def intro2_vn():
+    return render_template('into2-VN.html')
+
+@app.route('/intro3-vn')
+def intro3_vn():
+    return render_template('into3-VN.html')
+
+@app.route('/product-vn')
+def product_vn():
+    return render_template('product-VN.html')
+
+@app.route('/support-vn')
+def support_vn():
+    return render_template('support-VN.html')
+
 ## EN
 @app.route('/main-en')
 def home_en():
-    return render_template('landingpage - EN.html')
+    return render_template('landingpage-EN.html')
 
 @app.route('/main2-en')
 def home2_en():
-    return render_template('template - EN.html')
+    return render_template('template-EN.html')
 
 @app.route('/intro-en')
 def intro_en():
-    return render_template('into - EN.html')
+    return render_template('into-EN.html')
 @app.route('/intro2-en')
 def intro2_en():
-    return render_template('into2 - EN.html')
+    return render_template('into2-EN.html')
 
 @app.route('/intro3-en')
 def intro3_en():
-    return render_template('into3 - EN.html')
+    return render_template('into3-EN.html')
 
 @app.route('/product-en')
 def product_en():
-    return render_template('product - EN.html')
+    return render_template('product-EN.html')
 
 @app.route('/support-en')
 def support_en():
-    return render_template('support - EN.html')
+    return render_template('support-EN.html')
 
 
 
