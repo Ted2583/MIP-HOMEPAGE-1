@@ -115,6 +115,7 @@
   &.btn-info {
     @include bmd-flat-button-variant($btn-info-bg);
   }
+
   &.btn-success {
     @include bmd-flat-button-variant($btn-success-bg);
   }
@@ -124,11 +125,15 @@
   &.btn-danger {
     @include bmd-flat-button-variant($btn-danger-bg);
   }
+  &.btn-mip {
+    @include bmd-flat-button-variant($btn-mip-bg);
+  }
 }
 
 @mixin bmd-outline-button-color() {
   &.btn-outline,
   &.btn-outline-primary,
+  &.btn-outline-mip,
   &.btn-outline-secondary,
   &.btn-outline-info,
   &.btn-outline-success,
@@ -151,6 +156,9 @@
   }
   &.btn-outline-info {
     @include bmd-flat-button-variant($btn-info-bg, $btn-info-bg, $btn-info-bg, $btn-info-bg);
+  }
+  &.btn-outline-mip {
+    @include bmd-flat-button-variant($btn-mip-bg, $btn-mip-bg, $btn-mip-bg, $btn-mip-bg);
   }
   &.btn-outline-success {
     @include bmd-flat-button-variant($btn-success-bg, $btn-success-bg, $btn-success-bg, $btn-success-bg);
@@ -208,6 +216,9 @@
 }
 
 @mixin bmd-raised-button-color() {
+  &.btn-mip {
+    @include bmd-raised-button-variant($btn-mip-color, $btn-mip-bg, $btn-mip-border-color);
+  }
   &.btn-primary {
     @include bmd-raised-button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border-color);
   }
