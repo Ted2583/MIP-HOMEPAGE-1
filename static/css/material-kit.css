@@ -2188,6 +2188,31 @@ fieldset:disabled a.btn {
     .show > .btn-success.dropdown-toggle:focus {
       box-shadow: none, 0 0 0 0.2rem rgba(76, 175, 80, 0.5); }
 
+.btn-mip {
+  color: #fff;
+  background-color: #50b0a3;
+  border-color: #50b0a3;
+  box-shadow: none; }
+  .btn-mip:hover {
+    color: #fff;
+    background-color: #50b0a3;
+    border-color: #50b0a3; }
+  .btn-mip:focus, .btn-mip.focus {
+    box-shadow: none, 0 0 0 0.2rem rgba(0, 188, 212, 0.5); }
+  .btn-mip.disabled, .btn-mip:disabled {
+    color: #fff;
+    background-color: #50b0a3;
+    border-color: #50b0a3; }
+  .btn-mip:not(:disabled):not(.disabled):active, .btn-mip:not(:disabled):not(.disabled).active,
+  .show > .btn-mip.dropdown-toggle {
+    color: #fff;
+    background-color: #50b0a3;
+    border-color: #50b0a3; }
+    .btn-mip:not(:disabled):not(.disabled):active:focus, .btn-mip:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-mip.dropdown-toggle:focus {
+      box-shadow: none, 0 0 0 0.2rem rgba(80, 176, 163, 0.5); }
+
+
 .btn-info {
   color: #fff;
   background-color: #00bcd4;
